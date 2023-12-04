@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="first">
+        <div class="second">
+            <div class="third">
+                <form>
+                    <div>
+                      <label for="exampleInputEmail1" class="form-label">Name</label>
+                      <br>
+                      <input type="text" class="form-control" name="name" size="50px" required style="height: 25px;">
+                    </div>
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Number</label>
+                      <br>
+                      <input type="tel" class="form-control" id="exampleInputPassword1" required name="number" size="50px" style="height: 25px;">
+                    </div>
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Email</label>
+                      <br>
+                      <input type="email" class="form-control" id="exampleInputPassword1" required name="email" size="50px" style="height: 25px;">
+                    </div>
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Username</label>
+                      <br>
+                      <input type="username" class="form-control" required id="exampleInputPassword1" name="username" size="50px" style="height: 25px;">
+                    </div>
+                    <div>
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <br>
+                      <input type="password" class="form-control" required id="exampleInputPassword1" name="password" size="50px" style="height: 25px;">
+                    </div>
+                    <div class="bottom">
+                        <button type="submit" style="align-self: center;" class="btn btn-primary">Submit</button>
+                        <a href="http://localhost:8000/">Already Have Account</a>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

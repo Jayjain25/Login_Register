@@ -1,0 +1,32 @@
+.first{
+    display: flex;
+align-items: center;
+min-height: 90vh;
+justify-content: center;
+  }
+  .third{
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rgb(3, 251, 148);
+    border-radius: 10px;
+  }
+  div{
+    padding: 20px;
+    font-size: 30px;
+  }
+  .bottom button{
+    background-color: rgb(0, 157, 255);
+    width: 100px;
+    height: 30px;
+    
+    
+  }
+  .bottom a{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    text-decoration: none;
+  }
+  
